@@ -7,17 +7,17 @@ The Hand Gesture Detection System is a real-time application designed to recogni
 Project Summary  
 The application allows users to:
 
-Capture hand gesture data using a webcam  
+ . Capture hand gesture data using a webcam  
 
-Generate a custom dataset of hand landmarks  
+ . Generate a custom dataset of hand landmarks  
 
-Train a machine learning model for gesture classification  
+ . Train a machine learning model for gesture classification  
 
-Recognize gestures in real-time with confidence scores  
+ . Recognize gestures in real-time with confidence scores  
 
-Display predictions live on screen  
+ . Display predictions live on screen  
 
-The system uses MediaPipe for extracting hand landmarks and a Gradient Boosting model for accurate gesture classification.
+ . The system uses MediaPipe for extracting hand landmarks and a Gradient Boosting model for accurate gesture classification.
 
 
 Technology Stack  
@@ -33,31 +33,31 @@ Version Control: Git, GitHub
 Key Features  
 
 Real-Time Gesture Detection  
-Detects hand gestures using webcam input and displays predictions instantly  
+ . Detects hand gestures using webcam input and displays predictions instantly  
 
 Custom Dataset Collection  
-Captures 21 hand landmark coordinates (x, y, z) for each gesture  
+ . Captures 21 hand landmark coordinates (x, y, z) for each gesture  
 
 Machine Learning Classification  
-Uses Gradient Boosting for accurate and reliable gesture prediction  
+ . Uses Gradient Boosting for accurate and reliable gesture prediction  
 
 Confidence-Based Prediction  
-Displays prediction along with confidence percentage  
+ . Displays prediction along with confidence percentage  
 
 Improved Data Processing  
-Applies normalization to hand landmarks for better real-time accuracy  
+ . Applies normalization to hand landmarks for better real-time accuracy  
 
 
 Project Workflow  
 
 Data Collection  
-Capture gesture data using webcam and store landmark values  
+ . Capture gesture data using webcam and store landmark values  
 
 Model Training  
-Train a machine learning model using collected dataset  
+ . Train a machine learning model using collected dataset  
 
 Real-Time Detection  
-Use trained model to predict gestures from live webcam feed  
+ . Use trained model to predict gestures from live webcam feed  
 
 
 Project Structure (High-Level)  
@@ -95,22 +95,22 @@ python src/detect.py
 
 Challenges Faced  
 
-Confusion between similar gestures (e.g., peace and pointing)  
+ . Confusion between similar gestures (e.g., peace and pointing)  
 
-Variation in lighting and hand position affecting predictions  
+ . Variation in lighting and hand position affecting predictions  
 
-Low confidence in initial real-time results  
+ . Low confidence in initial real-time results  
 
 
 Improvements Made  
 
-Increased dataset size for better training  
+ . Increased dataset size for better training  
 
-Normalized landmark coordinates to improve accuracy  
+ . Normalized landmark coordinates to improve accuracy  
 
-Upgraded model from Random Forest to Gradient Boosting  
+ . Upgraded model from Random Forest to Gradient Boosting  
 
-Added confidence-based filtering for predictions  
+ . Added confidence-based filtering for predictions  
 
 
 Conclusion  
