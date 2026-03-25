@@ -7,7 +7,7 @@ mp_hands = mp.solutions.hands
 mp_draw  = mp.solutions.drawing_utils
 
 GESTURES = ["open_palm", "fist", "thumbs_up", "peace", "pointing"]
-SAMPLES_PER_GESTURE = 400   # increased from 200
+SAMPLES_PER_GESTURE = 400  
 DATA_FILE = "data/landmarks.csv"
 
 os.makedirs("data", exist_ok=True)
